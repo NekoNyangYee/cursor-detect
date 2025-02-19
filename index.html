@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>커서 감지 (내부용)</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .detected-text-continer {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="detected-text-continer">
+      <p id="detected-text">아무데나 눌러서 시작하기</p>
+      <p id="cursor-x-and-y">커서 감지용 브라우저입니다.</p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
